@@ -22,6 +22,7 @@ public class Operators {
 
         total = price * quantity;
 
+        System.out.println("You have bought " +quantity+ " " +item+"/s");
         System.out.println("The total is: $" +total);
 
         scanner.close();
